@@ -12,6 +12,7 @@ body {
 /* Navbar */
 
 .topnav {
+    z-index: 2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -38,25 +39,11 @@ body {
     }
 }
 
-/* Banner */
-
-#banner {
-    padding: 0;
-    height: 100vh;
-}
-
-#imgbanner {
-    width: auto;
-    height: 100vh;
-}
-
 /* Sponsor */
 
 #sponsor {
-    /* background-image: url("../img/sponsor.jpg");
-    background-size: cover; */
+    z-index: 1;
     padding-left: 0;
-    padding-top: 44px;
     height: 100vh;
     position: fixed;
 }
@@ -76,6 +63,7 @@ body {
 /* Resumen */
 
 #resumen {
+    z-index: 1;
     padding-top: 100px;
     text-align: center;
     color: white;
@@ -94,8 +82,10 @@ p {
 
 /* Extra */
 
-#extra {
-    background-color: aqua;
+#extra { z-index: 1;
+    bottom: 0;
+    right: 0;
+    position: fixed;
     height: 100vh;
 }
 
@@ -104,6 +94,12 @@ p {
         width: 0;
         height: 0;
     }
+}
+
+#help {
+    width: 100%;
+    top: 100%;
+    position: sticky;
 }
 
 /* Footer */
