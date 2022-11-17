@@ -112,3 +112,12 @@ footer {
     text-shadow: -2px -2px 1px #000;
     background-color: rgb(61, 97, 255);
 }
+
+/* Contacto */
+
+#contact {
+    font-size: x-large;
+    color:white;
+    text-shadow: 0px 2px 1px rgb(61, 97, 255);
+    text-align: center;
+}
