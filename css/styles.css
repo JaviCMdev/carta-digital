@@ -76,6 +76,16 @@ p {
     margin-right: 50px;
 }
 
+#neon {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 1px rgb(61, 97, 255);
+}
+
 #imglogo {
     width: 100%;
 }
@@ -120,4 +130,34 @@ footer {
     color:white;
     text-shadow: 0px 2px 1px rgb(61, 97, 255);
     text-align: center;
+}
+
+/* Menu */
+
+.menu {
+    display:flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    text-shadow: 0px 2px 1px rgb(61, 97, 255);
+}
+
+#menucont {
+    padding-top: 60px;
+}
+
+#menubot {
+    padding-bottom: 25px;
+}
+
+#bannermenu {
+    width: 100%;
+    padding-top: 44px;
+}
+
+@media screen and (max-width: 576px) {
+    #bannermenu {
+        padding-top: 132px;
+    }
 }
